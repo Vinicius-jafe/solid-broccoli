@@ -1,7 +1,7 @@
 // src/services/api.js
 
 // Altere para o endereço real do seu backend (Render, etc.)
-const API_BASE_URL = 'http://localhost:4000/api'; 
+const API_BASE_URL = 'https://bookish-broccoli-nue4.onrender.com'; 
 
 /**
  * Busca a lista de pacotes/destinos reais da API.
