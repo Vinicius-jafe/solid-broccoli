@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { submitContactForm } from '../mock';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
-import { toast } from './ui/use-toast';
+import { toast } from '../hooks/use-toast';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
